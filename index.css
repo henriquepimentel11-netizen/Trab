@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  gap: 16px;
+  background-color: black;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+    margin: 0;
+    justify-content: center;
+}
+nav {
+  margin-left: auto;
+  margin-right: 20px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: gray;
+  text-align: center;
+
+}
+.lista {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+  font-family: sans-serif;
+
+
+  
+}
+.dale {
+  color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 5%;
+}
+section article {
+    flex: 3 2 200px;
+    padding: 16px;
+    border-radius: 8px;
+}
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+@media (max-width: 935px) {
+  section img {
+    max-width: 100%;
+  }
+  .lista {
+    width: 100%;
+    gap: 12px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  a {
+    display: grid;
+    
+    font-size: 40px;
+  }
+  li{
+    background-color: gray;
+  }
+  h3.dale{
+    font-size: 40px;
+  }
+  .logo{
+    background-color: black;;
+  }
+
+}
